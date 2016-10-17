@@ -2,36 +2,34 @@
 
 Exercises for the [Functional JS Workshop](https://github.com/timoxley/functional-javascript-workshop) from [NodeSchool](http://nodeschool.io/)
 
-## Install
+## Setup
 
 ```
-npm install -g functional-javascript-workshop@latest
+npm i -g npm-run
+npm i
 ```
 
 ## Exercises
 
-### Start
+Add an alias for the `functional-javascript-workshop` command:
+```
+alias fjs='npm-run functional-javascript-workshop'
+```
+
+### Menu
 
 ```
-functional-javascript-workshop
+fjs
 ```
 
 ### Run
 
 ```
-functional-javascript-workshop run <solution>.js
+fjs run <solution>.js
 ```
 
 ### Verify
 
 ```
-functional-javascript-workshop verify <solution>.js
-```
-
-## Note
-
-Good idea to add an alias for the `functional-javascript-workshop` command:
-
-```
-alias fjs='functional-javascript-workshop'
+fjs verify <solution>.js
 ```
