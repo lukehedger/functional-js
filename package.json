@@ -1,0 +1,18 @@
+{
+  "name": "functional-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run functional-javascript-workshop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukehedger/functional-js.git"
+  },
+  "author": "Luke Hedger <luke.hedger@gmail.com> (http://www.level-out.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "functional-javascript-workshop": "^1.0.6"
+  }
+}
